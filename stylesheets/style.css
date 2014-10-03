@@ -1,0 +1,88 @@
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 90%;
+}
+.column {
+	float: left;
+	margin-left: 5%;
+} 
+.column:first-child {
+	margin-left: 0;
+}
+.column.full {
+	width: 100%;
+}
+
+.column.two-thirds {
+	width: 65%;
+}
+
+.column.half {
+	width: 47.5%;
+}
+
+.column.one-third {
+	width: 30%;
+}
+
+.column.one-fourth {
+	width: 21.25%;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+.row {
+	overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+	.column.full,
+	.column.two-thirds,
+	.column.half,
+	.column.one-third,
+	.column.one-fourth {
+		margin: 0;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}

@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'Icons';
+	src: url('fonts/MonoSocialIconsFont-1.10.eot');
+	src: url('fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+	url('fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+	url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+	url('fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+	src: url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.symbol, a.symbol:before {
+	font-family: 'Icons';
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	color: #FFFFFF;
+	font-size: 5em;
+	margin-top: 0.5em;
+	text-align: center;
+}
+
+a.symbol:before {
+	content: attr(title);
+	margin-right: 0.3em;
+	font-size: 130%;
+}
+.enactus_gold {
+	background-color: #FFC222;
+}
+.shadow_color {
+	background-color: #C88A12;
+}
+.enactus_gray {
+	background-color: #515356;
+}
+::selection {
+	background: #FFC222;
+	color: #FFFFFF;
+}
+/*
+::-webkit-scrollbar{
+	width: 0.5em;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #FFC222;
+}
+::-webkit-scrollbar-track{
+	background-color: #FFFFFF;
+}
+*/
+* {
+	-webkit-transition:all 0.25s;
+	-moz-transition:all 0.25s;
+	-ms-transition:all 0.25s;
+	-o-transition:all 0.25s;
+	transition:all 0.25s;
+}
+html, body  {
+  	width: 100%;
+  	height: 200%;
+  	-webkit-font-smoothing: antialiased;
+  	overflow-x: hidden;
+}
+body {
+	overflow: hidden;
+}
+#particles {
+  	width: 100%;
+	background-color: #515356;
+	height: 35em;
+  	overflow: hidden;
+  	margin: 0;
+  	padding: 0;
+  	border: none;
+}
+.hero {
+  	width: 100%;
+  	height: 100%;
+  	margin-top: -20%;
+  	vertical-align: middle;
+  	display: inline-block;
+  	text-align: center;
+  	position: absolute;
+}
+.hero img {
+	width: auto;
+	height: 15em;
+	vertical-align: middle;
+	margin-top: -10em;
+}
+.container {
+	background-color: #FFFFFF;
+	border-top: solid 0.5em #FFC222;
+	margin-left: 0;
+	min-width: 100%;
+	padding: 2em;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+.title {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Roboto Slab', serif;
+}
+.text {
+	font-size: 1.25em;
+	font-weight: 300;
+	padding: 0 1em;
+}
+@media screen and (orientation:portrait) {
+	.column.full,
+	.column.two-thirds,
+	.column.half,
+	.column.one-third,
+	.column.one-fourth {
+		margin-top: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+	#particles {
+		height: 25em;
+	}
+	.hero img {
+		margin-top: -15em;
+		height: 8em;
+	}	
+}

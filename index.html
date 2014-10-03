@@ -35,22 +35,22 @@
 		<div class="row">
 			<div class="column half">
 				<div class="title">Who we are</div>
+				<p class="text">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+				</p>
 			</div>
 			<div class="column half">
 				<div class="title">About Enactus</div>
+				<p class="text">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+				</p>
 			</div>
 		</div>
-
 		<div class="row">
-			<div class="column half">
-				<p class="text">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-				</p>
-			</div>
-			<div class="column half">
-				<p class="text">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-				</p>
+			<div class="column full">
+				<div class="quote">
+					&ldquo; Random quote about bringing change and all that. Lorem ipsum dolor sit amet. &rdquo;
+				</div>
 			</div>
 		</div>
 	<!--	
@@ -87,7 +87,9 @@
 	</div>
 	<script type="text/javascript">
 		$(document).ready(function() {
-		  $('#particles').particleground();
+		  $('#particles').particleground({
+		  	parallax: true
+		  });
 		});
 	</script>
 </body>

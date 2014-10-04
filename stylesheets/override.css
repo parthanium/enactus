@@ -118,7 +118,7 @@ body {
 	padding: 0 1em;
 }
 .quote {
-	font-style: italic;
+	/*font-style: italic;*/
 	text-align: center;
 	color: #FFC222;
 	font-size: 3em;

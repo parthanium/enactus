@@ -101,9 +101,10 @@ body {
 .container {
 	background-color: #FFFFFF;
 	border-top: solid 0.5em #FFC222;
+	border-bottom: solid 0.5em #FFC222;
 	margin-left: 0;
 	min-width: 100%;
-	padding: 2em;
+	padding: 2em 5%;
 	color: #000000;
 	font-family: 'Roboto', sans-serif;
 }
@@ -119,7 +120,6 @@ body {
 	padding: 0 1em;
 }
 .quote {
-	/*font-style: italic;*/
 	text-align: center;
 	color: #FFC222;
 	font-size: 3em;
@@ -127,7 +127,57 @@ body {
 	border-top: solid #FFC222 1px;
 	border-bottom: solid #FFC222 1px;
 	margin: 1em auto;
-	padding: 1em;
+	padding: 1em 0;
+}
+.project {
+	margin-top: 3em;
+	padding: 0 0.625em;
+}
+.project-title {
+	font-size: 2em;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+.project .text {
+	padding: 0;
+}
+.read-more {
+	text-decoration: none;
+	color: #FFC222;
+	display: inline-block;
+	margin-top: 1em;
+	font-weight: 400;
+	position: relative;
+	left: 0;
+}
+.read-more:hover, .read-more:active {
+	color: #C88A12;
+	left: 0.25em;
+}
+.project-image {
+	width: 70%;
+	margin-left: 20%;
+	font-size: 2em;
+	border-radius: 0.125em;
+}
+ul {
+	margin-top: 2em;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+li {
+	margin-top: 0.25em;
+	list-style-type: circle;
+}
+.footer {
+	width: 100%;
+	padding: 2em;
+	text-align: center;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	background-color: #515356;
+	font-weight: 300;
 }
 @media screen and (orientation:portrait) {
 	.column.full,
@@ -144,6 +194,11 @@ body {
 	}
 	.hero img {
 		margin-top: -15em;
-		height: 8em;
-	}	
+		height: 10em;
+	}
+	.project-image {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
 }
